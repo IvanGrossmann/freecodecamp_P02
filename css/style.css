@@ -1,0 +1,8 @@
+html {
+    text-align: center;
+}
+
+.mef {
+    display: flex;
+    flex-direction: column;
+}

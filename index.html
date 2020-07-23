@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'enquête</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Exercice formulaire</h1>
+        <p id="description">Ceci est un exercice, le P02 freecodecamp</p>
+    </header>
+    <form id="survey-form" action="">
+        <div class="mef">
+            <label id="name-label" for="name">Nom :</label>
+            <input id="name" type="text" placeholder="Entrez votre nom">
+        </div>
+        <div class="mef">
+            <label id="email-label" for="email">Email :</label>
+            <input id="email" type="email" placeholder="Entrez votre email">
+        </div>
+        <div class="mef">
+            <label id="number-label" for="number">Age (18-100) :</label>
+            <input id="number" type="number" placeholder="Entrez votre age" min="18" max="100">
+        </div>
+        <div class="mef">
+            <label for="">Couleur préféré</label>
+            <select id="dropdown" name="">
+                <option value="Rouge">Rouge</option>
+                <option value="Bleu">Bleu</option>
+                <option value="Vert">Vert</option>
+            </select>
+        </div>
+        <div class="mef">
+            <p>Tu aimes quel animal</p>
+            <div>
+                <input type="radio" name="ty">
+                <label for="Chat">Chat</label>
+            </div>
+            <div>
+                <input type="radio" name="ty">
+                <label for="Chien">Chien</label>
+            </div>
+            <div>
+                <input type="radio" name="ty">
+                <label for="Lapin">Lapin</label>
+            </div>
+        </div>
+        <div class="mef">
+            <p>Coche ton menu macdo</p>
+            <div>
+                <input type="checkbox">
+                <label for="coca">coca</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="frite">frite</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="cheeseburger">cheeseburger</label>
+            </div>
+        </div>
+        <div class="mef">
+            <label for="histoire">Ecris quelque chose :</label>
+            <textarea name="" id="" cols="30" rows="10">Raconte ton histoire</textarea>
+        </div>
+        <button id="submit">Envoyer</button>
+    </form>
+</body>
+</html>
